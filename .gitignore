@@ -1,5 +1,7 @@
 .idea
-
-phase_I/__pycache__
-phase_I/berlin*
-
+**/__pycache__
+**/build.py
+**/data
+**/.ipynb_checkpoints
+**/dusseldorf*
+**/berlin*
