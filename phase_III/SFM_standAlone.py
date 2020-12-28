@@ -56,7 +56,7 @@ if __name__ == '__main__':
             EM = np.dot(data['egomotion_' + str(i) + '-' + str(i + 1)], EM)
 
         curr_container.EM = EM
-        curr_container = SFM.calc_TFL_dist(prev_container, curr_container, focal, pp)
+        curr_container = SFM.calc_tfl_dist(prev_container, curr_container, focal, pp)
         visualize(prev_container, curr_container, focal, pp)
 
     plt.show()

@@ -3,7 +3,7 @@ from math import sqrt
 import numpy as np
 
 
-def calc_TFL_dist(prev_container, curr_container, focal, pp):
+def calc_tfl_dist(prev_container, curr_container, focal, pp):
     norm_prev_pts, norm_curr_pts, R, foe, tZ = prepare_3D_data(prev_container, curr_container, focal, pp)
 
     if abs(tZ) < 10e-6:
